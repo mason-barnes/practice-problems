@@ -1,8 +1,5 @@
 function decimalPlaceCounter(stringNumber) {
-  var newNum = stringNumber.split('.')[1].length;
-  if (newNum <= 0) {
-    console.log("0");
-  }
+  var newNum = parseFloat(stringNumber);
   console.log(newNum);
 }
 
