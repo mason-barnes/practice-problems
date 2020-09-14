@@ -7,10 +7,10 @@ function freeCoffeeCups(coffeeCups) {
   var sum = totalCups / 6;
   freeCups = Math.trunc(sum);
   totalCups += freeCups;
-  console.log(totalCups);
+  return totalCups;
 }
 
-freeCoffeeCups(13);
-freeCoffeeCups(6);
-freeCoffeeCups(5);
-freeCoffeeCups(24);
+console.log("Total cups:", freeCoffeeCups(13));
+console.log("Total cups:", freeCoffeeCups(6));
+console.log("Total cups:", freeCoffeeCups(5));
+console.log("Total cups:", freeCoffeeCups(24));
