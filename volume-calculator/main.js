@@ -11,9 +11,6 @@
 ////// Pseudo Code //////
 
 // -Create a function named "volumeCalculator".
-// -Within the function, create a loop that looks through each set of box measurements.
-//   -Within the loop, create three storage containers for each box measurement after the volume
-//    has been found.
 // -Return the result of multiplying box1, box2, and box3 together.
 
 function volumeCalculator(boxesArray) {
