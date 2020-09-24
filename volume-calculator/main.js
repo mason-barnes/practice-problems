@@ -17,11 +17,9 @@
 // -Return the result of multiplying box1, box2, and box3 together.
 
 function volumeCalculator(boxesArray) {
-  for (var i=0; i<boxesArray.length; i++) {
     var box1 = boxesArray[0][0] * boxesArray[0][1] * boxesArray[0][2];
     var box2 = boxesArray[1][0] * boxesArray[1][1] * boxesArray[1][2];
     var box3 = boxesArray[2][0] * boxesArray[2][1] * boxesArray[2][2];
-  }
   return box1 + box2 + box3;
 }
 
